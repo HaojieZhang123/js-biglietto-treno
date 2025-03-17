@@ -11,3 +11,4 @@ if (eta < 18) {
 if (eta > 65) {
     prezzoFinale = prezzo * 0.6;
 }
+prezzoFinale = prezzoFinale.toFixed(2);
