@@ -7,3 +7,7 @@ let prezzoFinale = prezzo;
 if (eta < 18) {
     prezzoFinale = prezzo * 0.8;
 }
+// check if over 65
+if (eta > 65) {
+    prezzoFinale = prezzo * 0.6;
+}
