@@ -13,3 +13,17 @@ Numero di push minimo: 6
 Ricordatevi di spezzare il problema in sottoproblemi come visto a lezione nel file README.md
 
 Buon lavoro!
+
+- Creo le due variabili chilometraggio e eta' chieste all'utente tramite prompt
+
+- Calcolo prezzo usando la formula prezzo = chilometraggio * 0.21, per 21 centesimi al chilometro.
+
+- Creo una variabile opzionale Prezzo finale, non necessaria, ma creata e inizializzata a valore iniziale uguale al prezzo per una visione piu pulita.
+
+- Controllo se e' minorenne tramite un if, se si, applicare lo sconto del 20% tramine x0.8
+
+- Controllo se e' ultra 65enne tramite un if, se si, applicare lo sconto del 40% tramine x0.6
+
+- Applico il toFixed al prezzo finale calcolato per avere un numero fisso di decimali
+
+- Stampo il risultato su console tramite console.log
