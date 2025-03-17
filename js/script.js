@@ -12,3 +12,4 @@ if (eta > 65) {
     prezzoFinale = prezzo * 0.6;
 }
 prezzoFinale = prezzoFinale.toFixed(2);
+console.log("Il prezzo del biglietto è di " + prezzoFinale + "€");
